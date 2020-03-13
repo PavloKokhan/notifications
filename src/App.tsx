@@ -28,7 +28,6 @@ function App() {
             setCount(arr.length);
             if (arr.length === 0) {
                 clearInterval(interval);
-                console.log('cleared')
             }
             return arr;
         })
